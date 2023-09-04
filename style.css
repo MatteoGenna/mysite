@@ -72,7 +72,7 @@ h3{
     width: 80%;
     height: 12px;
     background-color: #87b1de;
-    animation: fill 1s ease-in 1;
+    animation: fill 2s ease-in 1;
 }
 
 @keyframes fill{
