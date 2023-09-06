@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBar Navigation Menu</title>
+
+    <link rel="stylesheet" href="sidebar2.css" type="text/css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="menuToggle"></div>
+        <ul>
+            <li class="list">
+                <a href="#" style="--clr:#f44336;">
+                <span class="icon"></span>
+                <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#ffa117;">
+                <span class="icon"></span>
+                <span class="text">About</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#0fc70f;">
+                <span class="icon"></span>
+                <span class="text">Messages</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#2196f3;">
+                <span class="icon"></span>
+                <span class="text">Photos</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#b145e9;">
+                <span class="icon"></span>
+                <span class="text">Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            navigation.classList.toggle('active')
+        }
+    </script>
+    
+</body>
+</html>
