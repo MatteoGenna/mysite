@@ -4,3 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
         fadeInSection.classList.add('show');
     }, 500);
 });
+document.querySelector('.toggle-sidebar').addEventListener('click', function() {
+    document.querySelector('.sidebar').classList.toggle('active');
+  });
